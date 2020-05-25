@@ -7,8 +7,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 // Angular Material Module
 import { AngularMaterialModule } from './angular-material.module';
-// Auth Module
-import { AuthModule } from './auth/auth.module';
 // Posts Module
 import { PostsModule } from './posts/posts.module';
 // Components
@@ -31,7 +29,6 @@ import { ErrorInterceptor } from './error-interceptor';
     BrowserAnimationsModule,
     HttpClientModule,
     AngularMaterialModule,
-    AuthModule,
     PostsModule
   ],
   providers: [
